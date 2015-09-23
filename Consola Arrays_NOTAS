@@ -1,0 +1,42 @@
+Math.random()
+0.11426842026412487
+Math.random * 10
+NaN
+Math.random() * 10
+1.9617725908756256
+Math.ceil(2.000001)
+3
+Math.floor(2.88888)
+2
+var r = Math.random()
+undefined
+r
+0.9223028803244233
+r
+0.9223028803244233
+r = r *10
+9.223028803244233
+Math.ceil(r)
+10
+var myArray ["Esmeralda", "Claudia", "David", "Alejandra", "Katherin", "Grecia", "Santiagp"]
+Uncaught SyntaxError: Unexpected token [(…)
+var myArray = ["Esmeralda", "Claudia", "David", "Alejandra", "Katherin", "Grecia", "Santiago"]
+undefined
+myA
+Uncaught ReferenceError: myA is not defined(…)
+myArray[4
+Uncaught SyntaxError: Unexpected token }(…)
+myArray[4]
+"Katherin"
+var elementos = ["piedra", "papel", "tijeras"]
+undefined
+myArray[7] = "Diego"
+"Diego"
+myArray.push("Pepe") //lo pone al final de ka lista
+9
+myArray.length
+9
+myArray.length-1 //el ultimo elemento  porque length no cuenta desde 0
+8
+myArray[myArray.length -1]
+"Pepe"
