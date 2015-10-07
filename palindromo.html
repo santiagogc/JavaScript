@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Palindromo</title>
+</head>
+
+<body>
+    <script>
+    
+
+    var palabra = prompt("Pon una palabra para verificar si es palindromo");
+    var palabra = palabra.replace(/[^A-Z0-9]/ig, "").toLowerCase();
+    var palabraalrevez = palabra.split('').reverse().join('');
+
+    function palindromo(palabra) {
+        if (palabra === palabraalrevez) {
+            alert("Si es un palindromo")
+        } else {
+            alert("No es un palindromo")
+        }
+    }
+
+    palindromo(palabra);
+
+
+    </script>
+</body>
+
+</html>

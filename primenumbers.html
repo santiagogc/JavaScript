@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			function prime(limite){
+				//1 y 2 primo por definicion
+				for (i=3; i <= limite; i+=2){    //con el i+2  eliminas los pares por que va 3,5,7,9...
+					is_prime = 1;
+					for (j=2; j<=i/2; j++){
+						if(i%j ==0){
+							is_prime= 0;
+						break;
+						}
+					}
+					if(is_prime){
+						console.log(i);
+					}
+					//if (is_prime){
+					//	console.log("number" + i + "is prime")
+					//}else{
+					//	console.log("number" + i + "is not prime")
+					//}
+				}
+			}
+		</script>
+		
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+	function prime(limite){
+				//1 y 2 primo por definicion
+				var primos = [2]  //array
+				
+				for (i=3; i <= limite; i+=2){    //con el i+2  eliminas los pares por que va 3,5,7,9...
+					is_prime = true;
+					for (j=0; j < primos.length; j++){
+						if(i%primos[j] ==0){
+							is_prime=false;
+						}
+						}
+						if(is_prime){
+						console.log(i);
+						primos.push(i);
+						console.log(primos);
+					}
+					}
+					
+					
+				
+			}
+			</script>
+</body>
+</html>
